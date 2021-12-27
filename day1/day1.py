@@ -1,6 +1,6 @@
 #--- Day 1: Sonar Sweep ---
 
-data = open("day1/input.txt","r")
+data = open("input.txt","r")
 previous_depth,count,previous_sum,sum = 0,0,0,0
 list = data.readlines()
 
