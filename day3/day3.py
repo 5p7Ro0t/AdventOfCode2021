@@ -1,3 +1,5 @@
+#The code may look messy or lengthly to you. If you have better code than this, please share with me or raise an issue here on Github :) Thanks
+
 data = open("input.txt","r")
 data_list = data.readlines()
 
@@ -26,6 +28,7 @@ for i in range(length):
         epsilon_rate = epsilon_rate+'1'
     count_one,count_zero=0,0
 
+#Result - 1
 print("Submarine's Power Consumption is : " ,int(gamma_rate,2)*int(epsilon_rate,2))
 
 
@@ -92,7 +95,7 @@ def co(list_co,count_one,count_zero):
 
 res_co = co(list_co,count_one,count_zero)
 
-# Result
+# Result - 2
 
 print("The life support rating of the submarine is : ",int(res_oxy[0],2)*int(res_co[0],2))
     
