@@ -1,5 +1,7 @@
 #The code may look messy or lengthly to you. If you have better code than this, please share with me or raise an issue here on Github :) Thanks
 
+#--- Day 3: Binary Diagnostic ---
+
 data = open("input.txt","r")
 data_list = data.readlines()
 
